@@ -1,11 +1,9 @@
 ### Get weather update realtime
 - Search by city name
-- Searched histoy will be saved in mongodb
+- Searched histoy will be saved
 
-<!-- // const MONGO_DB = `mongodb+srv://admin:password101@weather-app.j3jw6.mongodb.net/?retryWrites=true&w=majority&appName=weather-app`
-// const API_KEY = '351af789fb7f78c8d1871e4b4a995230';
-// app.get('/', (req, res) => {
-//     res.send('Server is running')
-// }) -->
 
-git remote add origin https://github.com/hrmilon/realtime-weather.git
+## SetUp
+- clone the repo
+- go to index.js line 16 and set your connection string of mongodb (get your connection string from mongodb atlas cloud or whatever you like)
+-go to public/app.js line 16 and set api key from open weather api services.
